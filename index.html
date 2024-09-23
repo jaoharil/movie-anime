@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nonton Anime Di RilsCoy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,400;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/asset/css/reset.css" />
+    <link rel="stylesheet" href="/asset/css/style.css" />
+    <link rel="stylesheet" href="/asset/css/film.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Komik</a>
+        <a href="#">Video</a>
+      </nav>
+    </header>
+    <!-- slider -->
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="/asset/img/kimetsunoyiba.jpg" alt="kimetsunoyiba" />
+          <div class="detail">
+            <div class="title">Kimetsu No Yaiba</div>
+            <div class="name">Demon Slayer</div>
+            <figure>
+              <!-- <img src="/asset/avatar/kimetsunoyaiba.jpg" alt="" /> -->
+              <figcaption>Demon Slayer: Kimetsu no Yaiba is a Japanese manga</figcaption>
+            </figure>
+            <div class="more">More Details 🔜</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/asset/img/jujutsu.jpg" alt="jujutsu" />
+          <div class="detail">
+            <div class="title">Jujutsu Kaisen - Gege Akutami | MANGA</div>
+            <div class="name">Jujutsu Kaisen</div>
+            <figure>
+              <!-- <img src="/asset/avatar/kimetsunoyaiba.jpg" alt="" /> -->
+              <figcaption>Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 2018</figcaption>
+            </figure>
+            <div class="more">More Details 🔜</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/asset/img/onepice.jpg" alt="onepice" />
+          <div class="detail">
+            <div class="title">One Piece - Eiichiro Oda | MANGA Plus by Shueisha</div>
+            <div class="name">One Piece - Eiichiro Oda</div>
+            <figure>
+              <!-- <img src="/asset/avatar/kimetsunoyaiba.jpg" alt="" /> -->
+              <figcaption>One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997.</figcaption>
+            </figure>
+            <div class="more">More Details 🔜</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/asset/img/girlsfrontline.jpg" alt="jujutsu" />
+          <div class="detail">
+            <div class="title">Girls' Frontline – Official Site</div>
+            <div class="name">Girls' Frontline</div>
+            <figure>
+              <!-- <img src="/asset/avatar/kimetsunoyaiba.jpg" alt="" /> -->
+              <figcaption>Girls' Frontline is a mobile strategy role-playing game for Android and iOS developed by China-based studio MICA Team</figcaption>
+            </figure>
+            <div class="more">More Details 🔜</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/asset/img/titan.jpg" alt="jujutsu" />
+          <div class="detail">
+            <div class="title">Laga, Fantasi gelap, Fiksi pasca apokaliptik, Drama, Manga shōnen</div>
+            <div class="name">Attack on Titan</div>
+            <figure>
+              <!-- <img src="/asset/avatar/kimetsunoyaiba.jpg" alt="" /> -->
+              <figcaption>Shingeki no Kyojin, yang diterbitkan di Indonesia dengan judul Attack on Titan, adalah sebuah seri manga shōnen asal Jepang yang ditulis dan diilustrasikan oleh Hajime Isayama.</figcaption>
+            </figure>
+            <div class="more">More Details 🔜</div>
+          </div>
+        </div>
+      </div>
+      <!-- img yang kecil -->
+      <div class="thumbnail">
+        <div class="item">
+          <img src="asset/img/kimetsunoyiba.jpg" alt="kimetsu" />
+          <div class="detail">
+            <div class="name">Kimetsu No Yaiba</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="asset/img/jujutsu.jpg" alt="Jujutsu" />
+          <div class="detail">
+            <div class="name">Jujutsu Kaisen</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="asset/img/onepice.jpg" alt="Jujutsu" />
+          <div class="detail">
+            <div class="name">One Piece - Eiichiro Oda</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="asset/img/girlsfrontline.jpg" alt="Jujutsu" />
+          <div class="detail">
+            <div class="name">Girls' Frontline</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="asset/img/titan.jpg" alt="Jujutsu" />
+          <div class="detail">
+            <div class="name">Attack on Titan</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+      </div>
+      <div class="loading-bar"></div>
+    </div>
+    <!-- end slider -->
+
+    <!-- content -->
+    <div class="content">
+      <!-- <h1 class="color: black;">Movie</h1> -->
+      <!-- <div class="dalam"> -->
+      <!-- Wrapper untuk 3 card film -->
+      <div class="film-card-container movie-container"></div>
+      <!-- </div> -->
+    </div>
+
+    <!-- end content -->
+
+    <!-- Modal Box -->
+    <div id="filmModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="filmTitle">Detail Film</h2>
+        <div class="film-detail">
+          <p><strong>Genre:</strong> <span id="filmGenre"></span></p>
+          <p><strong>Year:</strong> <span id="filmYear"></span></p>
+          <p><strong>Rating:</strong> 4.5/5</p>
+          <p><strong>Deskripsi:</strong> Ini adalah deskripsi singkat tentang film ini...</p>
+        </div>
+        <button class="watch-now-btn">Mulai Menonton</button>
+      </div>
+    </div>
+
+    <!-- end modalbox -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Tentang Kami</h3>
+          <p>Kami adalah penyedia layanan film online terkemuka yang menawarkan berbagai pilihan film dari berbagai genre.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Kontak</h3>
+          <p>Email: RilsCoy.com</p>
+          <p>Telepon: +62 123 4567 890</p>
+        </div>
+        <div class="footer-section">
+          <h3>Ikuti Kami</h3>
+          <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Film Website. Semua Hak Dilindungi.</p>
+      </div>
+    </footer>
+
+    <!-- endfooter -->
+    <script>
+      // Dapatkan modal dan elemen close
+      let modal = document.getElementById('filmModal');
+      let span = document.getElementsByClassName('close')[0];
+
+      // Ketika user mengklik <span> (x), tutup modal
+      span.onclick = function () {
+        modal.style.display = 'none';
+      };
+
+      // Ketika user mengklik di luar modal, tutup modal
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
+      };
+
+      // Menangkap tombol "Tonton Sekarang" secara dinamis
+      $(document).on('click', '.watch-now-btn', function () {
+        // Mendapatkan data film dari elemen terdekat
+        let title = $(this).closest('.film-info').find('.film-title').text();
+        let genre = $(this).closest('.film-info').find('.film-genre').text();
+        let year = $(this).closest('.film-info').find('.film-genre:last').text();
+
+        // Menaruh data tersebut ke dalam modal
+        $('#filmTitle').text(title);
+        $('#filmGenre').text(genre);
+        $('#filmYear').text(year);
+
+        // Menampilkan modal
+        modal.style.display = 'block';
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/asset/js/script.js"></script>
+    <script src="/asset/js/film.js"></script>
+  </body>
+</html>
